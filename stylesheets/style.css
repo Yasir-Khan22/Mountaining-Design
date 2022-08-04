@@ -17,11 +17,21 @@
 body {
   font-family: 'Work Sans', sans-serif;
   font-size: 1.125rem;
-  background: gray;
+  color: var(--clr-dark);
+  line-height: 1.6;
 }
 
 header {
   border: 2px solid red;
+}
+
+.nav__list {
+  border: 2px solid red;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  font-size: 0.875rem;
 }
 
 main {
