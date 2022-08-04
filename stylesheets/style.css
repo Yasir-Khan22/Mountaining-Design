@@ -35,7 +35,6 @@ header {
   justify-content: space-between;
   border: 2px solid red;
   margin: 0;
-  padding: 0;
   padding: 1em;
   list-style: none;
   font-size: 0.875rem;
@@ -51,8 +50,16 @@ header {
 
 .weather {
   display: grid;
-  grid-template-columns: min-content, 1fr;
+  grid-template-columns: min-content 1fr;
   background: var(--clr-dark);
+  color: var(--clr-light);
+}
+
+.weather__icon {
+  grid-row: span 2;
+  background: var(--clr-primary);
+  padding: 3rem;
+  display: flex;
 }
 
 main {
