@@ -32,6 +32,8 @@ header {
   display: flex;
   list-style: none;
   font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: var(--fw-bold);
 }
 
 main {
