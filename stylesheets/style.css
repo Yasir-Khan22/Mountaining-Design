@@ -4,10 +4,20 @@
   box-sizing: border-box;
 }
 
-:root {}
+:root {
+  --clr-primary: #F70058;
+  --clr-dark: #0C0E36;
+  --clr-light: #fff;
+  --fw-normal: 400;
+  --fw-bold: 700;
+  --fw-black: 900;
+
+}
 
 body {
   font-family: 'Work Sans', sans-serif;
+  font-size: 1.125rem;
+  background: gray;
 }
 
 header {
