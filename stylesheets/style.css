@@ -67,13 +67,34 @@ header {
   margin-left: 0.35rem;
   text-align: left;
   text-transform: uppercase;
-  opacity: 0.5;
+  color: rgba(255, 255, 255, 0.7);
   letter-spacing: 1px;
+  font-size: .7rem;
+  font-weight: var(--fw-bold);
+  display: flex;
+  align-items: center;
 }
 
+.weather__info span {
+  color: #FFFFFF;
+  margin-left: auto;
+  font-size: 0.875rem;
+  margin-right: 0.75rem;
+}
 
 .weather__info:first-of-type {
   margin-top: .5em;
+  position: relative;
+}
+
+.weather__info:first-of-type::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background: var(--clr-light);
+  opacity: 0.25;
+  width: calc(100% - 0.75rem);
+  bottom: 0;
 }
 
 .weather__info:last-of-type {
