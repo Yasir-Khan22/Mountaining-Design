@@ -84,6 +84,7 @@ header {
 
 .weather__info:first-of-type {
   margin-top: .5em;
+  margin-bottom: 0.5rem;
   position: relative;
 }
 
@@ -99,4 +100,19 @@ header {
 
 .weather__info:last-of-type {
   margin-top: .5em;
+}
+
+main {
+  padding: 2em 1em;
+}
+
+.main__ski {
+  background-image: url(/images/bg.svg);
+  background-size: cover;
+}
+
+.main__title {
+  font-size: 2rem;
+  font-weight: var(--fw-bold);
+  line-height: 1;
 }
